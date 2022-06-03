@@ -390,7 +390,7 @@ case "$NDK_RN" in
 		TOOLSET=clang
 		CONFIG_VARIANT=ndk19
 		;;
-	"23.0"|"23.1")
+	"23.0"|"23.1"|"23.2")
 		TOOLCHAIN=${TOOLCHAIN:-llvm}
 		CXXPATH=$AndroidNDKRoot/toolchains/${TOOLCHAIN}/prebuilt/${PlatformOS}-x86_64/bin/clang++
 		TOOLSET=clang
